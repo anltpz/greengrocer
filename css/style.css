@@ -1,0 +1,70 @@
+body {
+    background-color: lightblue;
+
+}
+
+.container {
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    margin-left: 250px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* align-content: space-between; */
+    /* justify-content: center; */
+    float: left;
+}
+
+
+.card 
+{
+  max-width: 150px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-left: 25px;
+  
+
+}
+.price
+{
+    color:gray;
+    font-size: 20px;
+
+}
+.card button 
+{
+    border: none;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+
+}
+.card img 
+{
+    width: 320px;
+    height: 120px;
+}
+
+.box-calculate 
+{
+    background-color: beige;
+    width: 330px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
+    margin-left: 15px;
+    
+}
+
+
